@@ -1,0 +1,20 @@
+{
+  "name": "test-implementation-of-gherkin-testcafe",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "gherkin-testcafe chrome ./src/**/*.ts ./features/*.feature --tags ~@wip"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "contributors": [
+    "Alexander Ibach <alexander.ibach.extern@vtg.com>"
+  ],
+  "dependencies": {
+    "gherkin-testcafe": "^5.5.2",
+    "testcafe": "2.1.0"
+  }
+}
