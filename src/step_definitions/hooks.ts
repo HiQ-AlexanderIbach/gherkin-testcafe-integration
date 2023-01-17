@@ -5,5 +5,5 @@ import { Before } from '@cucumber/cucumber'
  * Runs before EACH scenario.
  */
 Before(async (t) => {
-    console.log(JSON.stringify(t as TestController));
+    console.log("Before Hook");
 });

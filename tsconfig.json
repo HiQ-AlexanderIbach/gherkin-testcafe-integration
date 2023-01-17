@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
     "types": ["./index"],
-    "module": "commonjs",
-    "esModuleInterop": true,
+    "module": "CommonJS",
     "target": "es2020",
     "experimentalDecorators": true,
+    "paths": {
+      "@cucumber/cucumber": ["./node_modules/gherkin-testcafe"] // this mapping is relative to "baseUrl"
+    }
   }
 }
